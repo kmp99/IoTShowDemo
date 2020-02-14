@@ -1,0 +1,30 @@
+==============================
+FaceRecognition
+==============================
+sudo pip3 install pillow==2.2.1
+Path /home/pi/Desktop/OpenCV-Face-Recognition/FacialRecognition
+Face Recognition
+cd Desktop
+cd OpenCV-Face-Recognition
+cd FacialRecognition
+python3 02_face_training.py 
+python3 03_face_recognition.py 
+
+
+===============================
+Realtime Object Detection 
+===============================
+RealTime Object Detection:
+
+python3 real_time_object_detection.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
+
+==============================================
+Object detection with deep learning and OpenCV
+==============================================
+python3 deep_learning_object_detection.py --prototxt MobileNetSSD_deploy.prototxt.txt  --model MobileNetSSD_deploy.caffemodel --image images/example_01.jpg
+
+=============================================
+Voice Control
+=============================================
+sudo pip3 install Adafruit_IO
+python3 mqtt-sub.py
